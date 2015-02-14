@@ -1,14 +1,10 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @link.title %>
-</p>
+<h3>Title:</h3>
+<h4><%= @link.title %></h4>
 
-<p>
-  <strong>Url:</strong>
-  <%= @link.url %>
-</p>
+<h3>Url:</h3>
+<h4><%= @link.url %></h4>
 
 <%= link_to 'Edit', edit_link_path(@link) %> |
 <%= link_to 'Back', links_path %>
